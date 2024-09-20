@@ -1,2 +1,2 @@
 cd data
-grep -w -c "вина" pushkin.txt | wc -l
+grep -w -o "вина" pushkin.txt | wc -l
